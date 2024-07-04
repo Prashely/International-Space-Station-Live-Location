@@ -1,0 +1,73 @@
+/* Mobile devices */
+@media (max-width: 600px) {
+    .iss {
+        width: 90%;
+    }
+
+    .header,
+    .metrics,
+    #map {
+        width: 100%;
+    }
+
+    #map {
+        height: 55vh;
+    }
+
+    .metrics p {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Tablets */
+@media (min-width: 600px) and (max-width: 1199px) {
+    .iss {
+        width: 80%;
+    }
+
+    .header,
+    .metrics,
+    #map {
+        width: 100%;
+        text-align: center;
+    }
+
+    #map {
+        height: 90vh;
+    }
+
+    .metrics p {
+        display: inline-block;
+        width: auto;
+        margin-right: 1rem;
+    }
+
+    .metrics p:nth-child(3) {
+        display: block;
+        margin-top: 1rem;
+        margin-right: 0;
+    }
+}
+
+/* Desktops */
+@media (min-width: 1200px) {
+    .iss {
+        width: 80%;
+    }
+
+    .header,
+    .metrics,
+    #map {
+        width: 100%;
+        text-align: center;
+    }
+
+    .metrics p {
+        display: inline-block;
+        width: auto;
+        margin-right: 1rem;
+        text-align: center;
+    }
+}
